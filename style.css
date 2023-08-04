@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: url('bckgrnd.jpg') no-repeat #b3d4ff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#wrapper {
+    background: rgba(70, 130, 180, 0.5);
+    margin:  auto;
+    width: 900px;
+	height:auto;
+}
+#header {
+  background-image: url('thumb-1920-700493.jpg');
+  background-size: cover;
+  height: 150px;
+  width: 900px;
+  text-align: center;
+  padding-top: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+}
+#menu {
+  background-color: rgb(0, 206, 209);
+  width: 900px;
+  height: 40px;
+  text-align: center;
+}
+
+	
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul a {
+  display: block;
+  width: 149px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul a:hover {
+  background-color: #2ECC71;
+}
+#info {
+  background-color: rgba(175, 238, 238, 0.6);
+  border: 6px solid transparent;
+  border-radius: 10px;
+  margin: auto;
+  width: 900px;
+  min-height: 200px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+}
+p.img1,
+p.img2,
+p.img3,
+p.img4 {
+  text-align: center;
+ }
